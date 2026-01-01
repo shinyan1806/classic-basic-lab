@@ -1,0 +1,23 @@
+10 REM おみくじプログラム
+100 PRINT "1を入力するとおみくじを引けます"
+110 INPUT A
+120 IF A = 1 THEN
+130     RANDOMIZE
+140     LET OMIKUJI = INT(RND * 10)
+150     IF OMIKUJI = 0 THEN
+160         PRINT "大吉です"
+170     ELSEIF OMIKUJI = 1 THEN
+180         PRINT "中吉です"
+190     ELSEIF OMIKUJI = 2 THEN
+200         PRINT "小吉です"
+210     ELSEIF OMIKUJI = 3 THEN
+220         PRINT "末吉です"
+230     ELSEIF OMIKUJI = 8 THEN
+240         PRINT "凶です"
+250     ELSEIF OMIKUJI = 9 THEN
+260         PRINT "大凶です"
+270     ELSE
+280         PRINT "吉です"
+290     END IF
+300 END IF
+310 END
