@@ -23,6 +23,7 @@ BASICのプログラム集
 
 ## File List（ファイル一覧）
 - OMIKUJI.BAS : おみくじプログラム
+- NUMBER.BAS : 数当てゲーム
 - LICENSE : ライセンスファイル
 - README.md : このファイル
 
